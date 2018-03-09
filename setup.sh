@@ -34,7 +34,6 @@ deactivate_python_environment() {
 
 setup_environment() {
     install_core_dependencies
-    clean
     create_python_environment
     activate_python_enviroment
     install_python_dependencies
@@ -61,10 +60,13 @@ elif [ "$1" == "activate" ]; then
     activate_python_enviroment
 elif [ "$1" == "deactivate" ]; then
     deactivate_python_environment
+elif [ "$1" == "clean" ]; then
+    clean
 else
     echo -e "Usage: ./setup.sh [options]"
     echo -e "install\t\t: Install python and all dependencies required."
     echo -e "jupyter\t\t: Start Jupyter notebook"
+    echo -e "clean\t\t: Clean Python Environment"
     echo -e "activate\t: Activate python environment"
     echo -e "deactivate\t: Deactivate python environment"
 fi
