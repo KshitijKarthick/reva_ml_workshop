@@ -2,7 +2,7 @@
 
 > Instructors: Kshitij Karthick, Ravi Kumar L
 
-> Dates: 10th March 2018, 11th March 2018, 16th March 2018
+> Dates: 10th March 2018, 11th March 2018, 16th March 2018  /  7th November, 2019
 
 > Venue: Reva University
 
